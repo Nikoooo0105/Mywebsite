@@ -1,0 +1,164 @@
+.ww-form-container form fieldset {
+    margin: 10px 0;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.ww-form-container form fieldset legend {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.ww-form-container form fieldset>div {
+    width: 310px;
+    margin: 0 auto;
+    padding: .1em 0;
+    position: relative;
+}
+
+.ww-form-container label[for='Submit'] {
+    display: none;
+}
+
+.ww-form-container input[type="text"],
+.ww-form-container input[type="password"],
+.ww-form-container input[type="tel"],
+.ww-form-container select,
+.ww-form-container textarea {
+    margin: 0 0 .5em 0;
+    box-shadow: none;
+    font-size: .9em;
+    margin-bottom: .3em;
+    height: 2.5em;
+    width: 310px;
+}
+
+.ww-form-container input[type="password"] {
+    padding-right: 36px;
+}
+
+.ww-form-container .intl-tel-input {
+    display: block;
+}
+
+.ww-form-container .file_upload_btn {
+    margin-bottom: 1em;
+}
+
+.ww-form-container .ps-del-file {
+    position: relative;
+    top: 2px;
+}
+
+.ww-form-container canvas {
+    border-style: dotted;
+    border-width: 2px;
+    background: #ffffff;
+    color: #000000;
+    cursor: crosshair;
+}
+
+.ww-form-container #sig-clearBtn {
+    font-weight: 400;
+}
+
+.ww-form-container .button {
+    width: 310px;
+}
+
+.ww-content-block.type-form i.fas.fa-calendar-alt,
+.ww-form-container i.fas.fa-calendar-alt {
+    position: absolute;
+    top: 2.3em;
+    left: 0.6em;
+}
+
+.ww-form-container i.fas.fa-sync-alt {
+    vertical-align: 1em;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+/*.ww-form-container .g-recaptcha {
+    transform: scale(1.025);
+    transform-origin: 0 0;
+}*/
+
+.ww-form-container .rating-star span {
+    width: 40px;
+    height: 40px;
+}
+
+.ww-content-block.type-form .birthday_wrap,
+.horizontal-form .ww-form-container form div>div.birthday_wrap {
+    position: relative;
+}
+
+.horizontal-form .ww-form-container input[type="text"], 
+.horizontal-form .ww-form-container input[type="password"], 
+.horizontal-form .ww-form-container input[type="tel"], 
+.horizontal-form .ww-form-container select, 
+.horizontal-form .ww-form-container textarea,
+.horizontal-form .ww-form-container input[type="email"],
+.horizontal-form .ww-form-container #mob_phone_phone_number_tel {
+    margin-right: 5%;
+    width: 95% !important;
+    font-size: .9em;
+    height: 2.5em;
+}
+
+.horizontal-form .ww-form-container .checkbox_wrap {
+    margin-top: 16px;
+}
+
+.horizontal-form .ww-form-container input[type="submit"]{
+    margin-top: 10px;
+    width: auto;
+    text-transform: uppercase;
+}
+
+.wait-upload {
+    display: none;
+    position: absolute;
+    left: 2.5em;
+}
+
+/* || International Telephone input overrides || */
+.ww-register-form form .phone_wrap .phone_number::placeholder,
+.ww-register-form form .phone_wrap .phone_number::-webkit-input-placeholder{
+    text-align:left;
+}
+
+.intl-tel-input {
+    width: 100%
+}
+
+/*recaptcha z-index and back to top overlap issue*/
+.grecaptcha-badge {
+  z-index: 9999;
+  bottom: 65px !important;
+}
+
+.ww-content-block.type-form .billing_postal_suffix_wrap,
+.ww-form-container .billing_postal_suffix_wrap{
+    display:none;
+}
+
+@media screen and (max-width: 63.9375em) {
+    .horizontal-form .ww-form-container .small-width-100 {
+        width:100% !important;
+    }
+
+    .horizontal-form .ww-form-container input[type="text"], 
+    .horizontal-form .ww-form-container input[type="password"], 
+    .horizontal-form .ww-form-container input[type="tel"], 
+    .horizontal-form .ww-form-container input[type="email"],
+    .horizontal-form .ww-form-container select, 
+    .horizontal-form .ww-form-container textarea,
+    .horizontal-form .ww-form-container #mob_phone_phone_number_tel {
+        margin-right: 0;
+        width: 100% !important;
+        
+    }
+}

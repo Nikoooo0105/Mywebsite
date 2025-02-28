@@ -1,0 +1,16 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 06 Jan 2025 12:05:11 at https://s-t-stairs.webware.io/ +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv +*.pdf +*.mp4
+(winhttrack -qwC2%Ps0u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.05 [fr] (Win98; I)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://s-t-stairs.webware.io/ -O1 "C:\My Web Sites\ST & Co." +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv +*.pdf +*.mp4 )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:08:30	Error: 	"Not Found" (404) at link https://s-t-stairs.webware.io/data/global/media/static/min/fonts/fontawesome/5.15.1/fa-light-300.woff (from https://s-t-stairs.webware.io/data/global/media/static/min/c62f0ad8d9467022f2116c5f780121029fb0542bc25e3bb6065fe42fbc776dd2.css)
+12:08:38	Error: 	"Forbidden" (403) at link d14ty28lkqz1hw.cloudfront.net/data/org/26228/theme/43706/img/footer_bg.jpg (from d14ty28lkqz1hw.cloudfront.net/data/org/26228/theme/43706/css/site.css)
+12:08:41	Warning: 	Retry after error -5 (Unable to get server's address: No such host is known. ) at link s7.addthis.com/js/300/addthis_widget.js (from https://s-t-stairs.webware.io/blogs/blog)
+12:08:42	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link s7.addthis.com/js/300/addthis_widget.js (from https://s-t-stairs.webware.io/blogs/blog)
+12:08:42	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link s7.addthis.com/js/300/addthis_widget.js (from https://s-t-stairs.webware.io/blogs/blog)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 31 seconds : 156 links scanned, 151 files written (25342381 bytes overall) [11259036 bytes received at 53360 bytes/sec], 23227451 bytes transferred using HTTP compression in 115 files, ratio 38%, 1.2 requests per connection
+(3 errors, 2 warnings, 0 messages)

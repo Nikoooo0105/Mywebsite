@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+s-t-stairs.webware.io	TRUE	/	FALSE	1999999999	JSESSIONID	9FC1B1CA485A229445A1D35186953E0D.cfusion
+s-t-stairs.webware.io	TRUE	/	FALSE	1999999999	CART-MEMBER-ID	473EE8B4%2D9FD0%2DA562%2DD1116643B88D5BEA
+s-t-stairs.webware.io	TRUE	/	FALSE	1999999999	SERVERID	staging
+s-t-stairs.webware.io	TRUE	/	FALSE	1999999999	PS-REFERER	http%3A%2F%2Fs%2Dt%2Dstairs%2Ewebware%2Eio%2F
+s-t-stairs.webware.io	TRUE	/	FALSE	1999999999	PS-LANDING-SITE	%2Fpages%2Fcontact%2Dresidential%2Dcarpentry%2Dcompany%2Dbradford%2Dontario
+

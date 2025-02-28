@@ -1,0 +1,351 @@
+div.form-container.ps-register-form {
+	padding-top: 0px;
+}
+
+.thanks-text {
+	font-size: 20px !important;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px !important;
+	color: #0f75bd !important;
+	text-transform: capitalize !important;
+	font-weight: 500 !important;
+}
+
+.floating-form-container-hide {
+	transform: translateX(-260px); 
+}
+
+.quick-inquiry-text {
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	font-size: 13px !important;
+	margin-top: 12px;
+	margin-left: 2px !important;
+	text-transform: uppercase;
+	font-weight: 600 !important;
+	letter-spacing: 0.5px;
+	color: #fff !important;
+}
+
+.floating-form-container p,
+.floating-form-container a {
+	color:inherit;
+	margin-bottom: 0px !important;
+}
+
+/* Webware Form error label adjustment */
+div.form-container label.error {
+	display: none;
+}
+
+#email_error_msg {
+	margin-top: -12px;
+}
+
+#captcha_error_msg {
+	line-height: 15px;
+	margin-top: -40px;
+	margin-bottom: -6px;
+	width: 195px;
+}
+
+.floating-form::-webkit-scrollbar {
+	display: none;
+}
+
+/* ease-in = Specifies a transition effect with a slow start*/
+#hidebox-custom {
+	right: -30px;
+	top: 34%;
+	width: 30px;
+	height: 145px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 0px 10px 10px 0px;
+	z-index: 2;
+	line-height: 1.7;
+	color: #000000;
+	display: inline-block;
+	position: absolute;
+	overflow: hidden;
+	transition: all 0.4s ease-in;
+}
+
+#hidebox-custom:before {
+	content: '';
+	background-color: aliceblue;
+	border-radius: 50%;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transform: scale(0.001, 0.001);
+}
+
+/*** iPhone and iOS Form Input Zoom Fixes ***/
+/* Fix Input Zoom on devices older than iPhone 5: */
+@media screen and (device-aspect-ratio: 2/3) {
+	select, textarea, input[type="text"], input[type="password"],
+	input[type="number"], input[type="email"],
+	input[type="tel"]
+	{ 
+		font-size: 16px !important;  
+	}
+}
+
+/* Fix Input Zoom on iPhone 5, 5C, 5S, iPod Touch 5g */
+@media screen and (device-aspect-ratio: 40/71) {
+	select, textarea, input[type="text"], input[type="password"],
+	input[type="number"], input[type="email"],
+	input[type="tel"]
+	{ 
+		font-size: 16px !important;
+	}
+}
+
+/* Fix Input Zoom on iPhone 6, iPhone 6s, iPhone 7  */
+@media screen and (device-aspect-ratio: 375/667) {
+	select, textarea, input[type="text"], input[type="password"],
+	input[type="number"], input[type="email"],
+	input[type="tel"]
+	{ 
+		font-size: 16px !important;
+	}
+}
+
+/* Fix Input Zoom on iPhone 6 Plus, iPhone 6s Plus, iPhone 7 Plus, iPhone 8, iPhone X, XS, XS Max  */
+@media screen and (device-aspect-ratio: 9/16) {
+	select, textarea, input[type="text"], input[type="password"],
+	input[type="number"], input[type="email"],
+	input[type="tel"]
+	{ 
+		font-size: 16px !important;
+	}
+}
+
+/* ease-out = Specifies a transition effect with a slow end*/
+#hidebox-custom:hover:before {
+	animation: effect_dylan 0.8s ease-out;
+}
+
+@keyframes effect_dylan {
+	50% {
+		transform: scale(1.5, 1.5);
+		opacity: 0;
+		border: 1px solid blue;
+	}
+	99% {
+		transform: scale(0.001, 0.001);
+		opacity: 0;
+		border: 1px solid red;
+	}
+	100% {
+		transform: scale(0.001, 0.001);
+		opacity: 1;
+		border: 1px solid green;
+	}
+}
+
+.ps-register-form form,
+.ps-language-preference form,
+div.form-container form {
+	width: 100%;
+}
+
+span.error {
+	font-size: 11px !important;
+	margin-top: -4px;
+	margin-left:0;
+}
+
+/* Floating form css starts */
+#thank-you-div {
+	width: 255px;
+	margin: 114px auto;
+	color: #222;
+}
+
+.flag-container {
+	display: block;
+}
+
+#mob_phone_phone_number_valid{  
+	font-size: 11px;
+	top: -4px;
+	position: relative;
+}
+
+/*ease-in-out = Specifies a transition effect with a slow start and end*/
+.is-quick-inquiry-form {
+	background: white;
+	display: inline-block;
+	left: 0;
+	border-radius:10px;
+	z-index: 99999;
+	padding: 0px 0px;
+	text-align: center;
+	top: 27%;
+	width: 275px;
+	min-height: 340px;
+	max-height: 600px;
+	text-align: center;
+	position: fixed;
+		-webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.12), 0 1px 10px rgba(0, 0, 0, 0.24);
+		-moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.12), 0 1px 10px rgba(0, 0, 0, 0.24);
+		-ms-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.12), 0 1px 10px rgba(0, 0, 0, 0.24);
+		-o-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.12), 0 1px 10px rgba(0, 0, 0, 0.24);
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.12), 0 1px 10px rgba(0, 0, 0, 0.24);
+		-webkit-transition: all 0.25s ease-in-out;
+		-moz-transition: all 0.25s ease-in-out;
+		-ms-transition: all 0.25s ease-in-out;
+		-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+::placeholder {
+	color:#000000;
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	font-size: 12px;
+	opacity: 1;
+	/* Firefox */
+}
+
+/* Floating form css ends */
+div.form-container input[type="text"],
+div.form-container textarea,
+#mob_phone_phone_number_tel {
+	width: 100% !important;
+	border-radius: 4px;
+	font-size: 12px;
+	margin-bottom: 6px;
+}
+
+/*The transform-origin property allows you to change the position of transformed elements.*/
+.g-recaptcha {
+	transform: scale(0.70);
+		-webkit-transform: scale(0.70);
+	transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+	margin-bottom: 0 !important;
+	height: 57px;
+}
+
+div.form-container .submit_wrap {
+	text-align: left;
+}
+
+#mob_phone_phone_number_tel {
+	margin-top: 5px !important;
+	margin-bottom: 5px !important;
+	border: 1px solid #BDC3C7;
+	border-radius: 0;
+    height: 39px;
+	font-size: 14px;
+}
+
+div.form-container textarea{
+	height: auto;
+	min-height: 55px !important;
+}
+
+div.form-container form fieldset {
+	border: none !important;
+	text-align: left;
+}
+
+div.form-container form fieldset {
+	padding:0 !important;
+	margin: 0px;
+}
+
+textarea#field_331 {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.thank-you-text {
+	color: black;
+	padding-top: 20px;
+}
+
+div.form-container {
+	padding: 10px;
+}
+
+div.form-container form fieldset div {
+	padding: 0px;
+	clear: both;
+	max-width: 100%;
+}
+
+#first_name {
+	margin-bottom: 5px !important;
+}
+
+.country-name {
+	color: black !important;
+}
+
+@media only screen and (max-width: 1024px) {
+	.is-quick-inquiry-form {
+		top: 20%;
+	}
+}
+@media only screen and (max-width: 940px) {
+	#content-page-type img {
+		height: auto;
+		float: none;
+		margin-bottom: 0px;
+	}
+
+	.is-quick-inquiry-form {
+		top: 26% !important;
+	}
+
+	.quick-inquiry-text {
+		margin-left: -1px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.is-quick-inquiry-form {
+		top: 26% !important;
+	}
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.quick-inquiry-text{
+		font-size: 13px;
+		transform: rotate(90deg);
+			-webkit-transform: rotate(90deg);
+			-moz-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			-o-transform: rotate(90deg);
+		display: inline-block;
+	}
+
+	#hidebox-custom p{  
+		margin-top: 53px;
+		margin-left: -21px !important;
+	}
+}
+
+.is-quick-inquiry-form {
+	width: 260px !important;
+	height: 275px !important;
+}
+
+.is-wrapper > div.is-section.is-quick-inquiry-form{
+	position: fixed !important;
+}
+
+#divboxtool {
+	z-index: 99999 !important;
+}
+
+.is-quick-inquiry-form iframe{
+	width: 252px !important;
+	height: 340px !important;
+	border: none !important;
+}
